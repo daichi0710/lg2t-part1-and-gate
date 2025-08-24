@@ -1,6 +1,5 @@
 # 🛠 Step-by-Step: Building an AND Gate
-<img src="https://img.shields.io/badge/Version-v1.0.0-blue?logo=github" />
-<img src="https://img.shields.io/badge/License-%20%20GNU%20GPLv3%20-red" />
+<img src="https://img.shields.io/badge/Version-v1.0.0-blue?logo=github" /> <img src="https://img.shields.io/badge/License-%20%20GNU%20GPLv3%20-red" />
 
 
 ## 📝 Overview
@@ -33,11 +32,12 @@ It is part of my "From Logic Gates to Transformers" self-learning series.
 <br>
 
 ## 📂 Project Structure
-| Directory/File   | Description                                      |
-| ---------------- | ------------------------------------------------ |
-| article/         | Explanatory documents (PDF, diagrams, ..., etc.) |
-| notebook/        | Jupyter notebooks for hands-on steps             |
-| requirements.txt | Python dependencies used in the notebooks        |
+| Directory/File   | Description                                              |
+| ---------------- | -------------------------------------------------------- |
+| docs/            | Setup instructions and other supplementary documentation |
+| article/         | Explanatory documents (PDF, diagrams, ..., etc.)         |
+| notebook/        | Jupyter notebooks for hands-on steps                     |
+| requirements.txt | Python dependencies used in the notebooks                |
 
 <br>
 
@@ -61,12 +61,9 @@ Notebooks were run directly inside VSCode, not in Jupyter Lab or JupyterHub.
     cd lg2t-part1-and-gate
     ```
 
-For **VSCode** with the [**Jupyter Extension**](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter)  
-
-2. Install dependencies:
-    ```bash
-    pip install -r requirements.txt
-    ```
+2. Setup the environment
+After cloning the repository,   
+please follow the detailed setup instructions provided in the [environment-setup.md](./docs/environment-setup/environment-setup.md) file.
 
 
 <br>
