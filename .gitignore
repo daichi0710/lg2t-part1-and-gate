@@ -205,3 +205,13 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+
+# Additional settings
+_bk/
+_old/
+_tmp/
+LinkedIn/
+
+*.xlsx
+*.typ
